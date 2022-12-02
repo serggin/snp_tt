@@ -1,0 +1,44 @@
+.app {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.timers {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer-buttons {
+  max-width: 350px;
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logs {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.logs h2 {
+  text-align: center;
+}
+
+.logs div {
+  border: solid 1px gray;
+  padding: 5px;
+  overflow-y: auto;
+  min-height: 18px;
+}
